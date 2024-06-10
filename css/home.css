@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: #24353f;
+}
+.navbar.bg-navbarHome {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar .nav-item .Logout {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar .nav-item .Logout:hover {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+h1 {
+  color: #17a2b8;
+  text-align: center;
+  font-size: 2.8125rem;
+  font-weight: 600;
+}
+
+.parent .container .box {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent .box .box-content {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  background-color: #24353f;
+  padding: 2.6875rem !important;
+}
+
+@media (max-width: 920px) {
+  .navbar .nav-item a {
+    width: 100% !important;
+    margin-top: 18px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}

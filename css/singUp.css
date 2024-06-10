@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+ box-sizing: border-box;
+}
+body {
+  background: #24353f;
+  font-family: " Titillium Web";
+  /* background-color: ; */
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+h1 {
+  font-size: 2.8125rem;
+  font-weight: 600;
+  color: #17a2b8;
+
+  text-align: center;
+}
+.parent-crud p {
+  text-align: center;
+  font-size: 16px;
+}
+.parent-crud span {
+  font-size: 17px;
+  margin-top: 15px !important;
+  color: #fff;
+  font-weight: 500;
+}
+.parent-crud .row{
+    /* box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1); */
+    box-shadow: 0 0 10px #17a2b8;
+}
+.parent-crud input{
+    background:transparent;
+    color: #fff !important;
+}
+::placeholder{
+    color: #bfc2c6 !important;
+}
+.parent-crud input:focus {
+  background: transparent;
+  border-color: #17a2b8;
+  color: #fff ;
+  
+}

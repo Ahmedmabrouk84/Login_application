@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/singUp.css" />
+    <title>Smart login</title>
+  </head>
+  <body>
+    <main>
+      <section class="parent-crud ">
+        <div class="container my-5">
+          <div class="row w-75 mx-auto my-5 alin  d-flex  justify-content-center p-5">
+            <h1 class="mb-4">Smart Login System</h1>     
+            <input id="signinName"  type="text" class="form-control align-self-start w-100 my-2"  placeholder="Enter Your Name">      
+            <input id="signinEmail"  type="email" class="form-control align-self-start w-100 my-2"  placeholder="Enter Your Email">      
+            <input id="signinPassword"  type="password" class="form-control w-100 my-2 mb-3" placeholder="Enter Your Password">
+            <p class="text-danger d-none mt-1">All inputs is required</p>
+            <p class="text-danger d-none mt-1" id="msgEmail">Email already exists</p>
+            <p class="text-success d-none fs-5 mt-1" id="msgSuccess">Success</p>
+
+            <button id="singUp" class="btn btn-outline-info mt-3" >Sing Up</button>
+            <span class="text-center mt-3 ">Don't have an account ? <a href="index.html" > Sign in</a></span>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/singUp.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
